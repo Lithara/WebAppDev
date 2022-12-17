@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-weight: lighter;
+}
+
+body{
+    background-color: #000000;
+}
+
+.developers{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.row1{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row1-col1{
+    font-size: 60px;
+    font-weight: 250;
+    flex-basis: 50%;
+    min-width: 300px;
+    text-align: left;
+    padding-top: 50px;
+    margin: 25px 25px;
+}
+
+.row1-col1 span{
+    font-weight: 500;
+}
+
+.row1-col2{
+    flex-basis: 50%;
+    font-size: 15px;
+    padding-top: 170px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.row2{
+    min-width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.row2 img{
+    max-width: 100%;
+    padding: 25px 25px;
+    width: 1700px;
+}
+
+.hr{
+    width: 80%;
+    height: 1px;
+    border: 0 none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.row4{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row4-col1{
+    flex-basis: 50%;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.topic{
+    font-size: 60px;
+    font-weight: 250;
+    flex-basis: 50%;
+    text-align: left;
+    padding: 25px 25px;
+}
+
+.topic span{
+    font-weight: 500;
+}
+
+.description{
+    font-size: 15px;
+    font-weight: 250;
+    flex-basis: 50%;
+    text-align: left;
+    margin: 25px 25px;
+}
+
+.button1 button{
+    background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    margin: 25px 25px;
+    justify-content: center;
+    border: none;
+}
+
+.button1 button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.row4-col2{
+    flex-basis: 50%;
+    margin: 25px 25px;
+    min-width: 300px;
+    text-align: right;
+}
+
+.row4-col2 img{
+    padding-top: 100px;
+    max-width: 100%;
+    width: 500px;
+    text-align: right;
+}
